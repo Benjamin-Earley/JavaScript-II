@@ -1,6 +1,11 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-
+const name = 'Ben';
+function phrase() {
+  let adverb = 'crushing';
+  alert(`I'm ${name}, and I am ${adverb} this assignment!`);
+}
+console.log(`Challenge 1:\n`, phrase());
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
